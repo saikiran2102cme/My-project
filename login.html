@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login form</title>
+</head>
+<body>
+    <div class="main_box">
+        <div class="signin_text"><h1 class="text">Sign In</h1></div>
+        <div><input class="user_name" type="text" placeholder="Username" id="user_name"></div>
+        <div><input class="pass_word" type="password" placeholder="Password" id="pass_word"  maxlength="10"></div>
+        <p id="alert_code_1"></p>
+        <p id="alert_code_2"></p>
+        <div class="operations">
+            <input class="reset_btn" type="reset"  value="Reset" id="reset_btn" onclick="reset_fun()">
+            <input class="login_btn" type="submit" value="Login" id="login_btn" onclick="submit_fun()">
+        </div>
+        <input type="button" value="Request hash" id="req_hash" onclick="req_hash()">
+        <input type="button" value="Clear alert codes" id="clear" onclick="req_clear_alert_code()">
+    </div>
+    <fieldset>
+        <legend>Hash code</legend>        
+        <p id="alert_code"></p>
+        <p id="hash_password"></p>
+        <p id="org_password"></p>
+    </fieldset>
+</body>
+<script src="login.js"></script>
+</html>

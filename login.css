@@ -1,0 +1,75 @@
+body {
+    background-color: #ffffff;
+    font-family: Verdana;
+}
+
+.main_box {
+    height: 400px;
+    width: 300px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #2a8a91;
+    background-color: #2a8a91;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.text {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.user_name {
+    margin-top: 20px;
+    height: 35px;
+    width: 230px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-radius: 7px;
+}
+
+.pass_word {
+    margin-top: 20px;
+    height: 35px;
+    width: 230px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-radius: 7px;
+}
+
+.login_btn, .reset_btn, #req_hash, #clear {
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 35px;
+    width: 140px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 7px;
+}
+
+.operations {
+    display: inline-block;
+    height: 35px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#alert_code_1 {
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#alert_code_2 {
+    color: #00ff00;
+    font-size: 14px;
+    font-weight: bolder;
+}
